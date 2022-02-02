@@ -8,7 +8,8 @@ Cargo is Rust’s build system and package manager.
 2) Creating a project with Cargo
 	a) cargo new projectName(i.e. hello_cargo)
 		a.1) To move to this project folder, use cd projectName
-		a.2) You’ll see that Cargo has generated two files and one directory for us: a Cargo.toml file and a src directory with a main.rs file inside.
+		a.2) You’ll see that Cargo has generated two files and one directory for us: a Cargo.toml, Cargo.lock file and a src directory with a main.rs file inside
+			a.2.a) Cargo.lock: It tells us about the locked version of dependency
 
 3) To Build(This command creates an executable file) use: cargo build
 	a) it will produce an executable file at target/debug/projectName(hello_cargo)
